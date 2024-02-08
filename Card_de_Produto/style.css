@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background: #D9CDF7;
+    text-align: left;
+}
+
+main {
+    display: flex;
+
+}
+
+.sec1 {
+    width: 50vw;
+    height: 100vh;
+
+}
+
+.sec1 .sofa {
+    width: 50vw;
+    height: 50vh;
+
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+.sec1 .bttn{
+    
+    width: 2vw;
+    height: 5vh;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+
+.sec1 .gif{
+    display: none;
+}
+.sec1 .static{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec2 {
+    width: 50vw;
+    height: 100vh;
+
+}
+
+.sec2 .desc {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.sec2 .desc p.cod {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.sec2 .prod {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.sec2 p.price {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.sec2 button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec2 button:hover {
+    background-color: rgba(0, 0, 0, 0.363);
+    cursor: pointer;
+}
